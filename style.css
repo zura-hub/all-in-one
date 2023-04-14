@@ -1,0 +1,358 @@
+.container {
+    padding: 25px;
+}
+
+.deliveryMain{
+    background-image: url(./img/delivery.jpg);
+}
+
+body {
+    overflow-x: hidden;
+    background-image: url(./img/taxi.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mainAbout{
+    background-image: url(./img/marketplace.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mail-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.main-li {
+    display: none;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.847);
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    color: #682497;
+    position: absolute;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #682497;
+}
+
+
+.main-header-desctop{
+    display: none;
+}
+
+.links {
+    margin-top: 25px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.links:hover {
+    border-bottom: 1px solid rgba(49, 48, 48, 0.323);
+    width: 100px;
+    color: blueviolet;
+    transition: 1s;
+    font-size: larger;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.burgerBtn {
+    font-size: 35px;
+    margin-top: -20px;
+    cursor: pointer;
+    user-select: none;
+    color: #682497;
+}
+
+.burgerBtn:hover {
+    transition: 1s;
+    color: blueviolet;
+}
+
+.main {
+    background-position: center;
+
+}
+
+.main-list {
+    color: blueviolet;
+    text-align: center;
+}
+
+.services {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.header {
+    height: 100px;
+    width: 250px;
+    border: solid 1px #6724977f;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 3px;
+    background-color: #6724977f;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.header:hover {
+    background-color: #672497c4;
+    border: solid 1px #672497c4;
+}
+
+.delivery {
+    height: 100px;
+    width: 250px;
+    border: solid 1px #6724977f;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: #6724977f;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.delivery:hover {
+    background-color: #672497c4;
+    border: solid 1px #672497c4;
+
+}
+
+.btnTaxi {
+    display: block;
+    margin: auto;
+    height: 90px;
+    width: 250px;
+    background: transparent;
+    color: #682497;
+    cursor: pointer;
+    font-size: 25px;
+    border: transparent;
+    border-radius: 3px;
+}
+
+.btnTaxi:hover {
+    background-color: #0d03138e;
+    color: rgb(204, 182, 224);
+}
+
+.taxiHeader {
+    padding: 20px;
+    width: 100%;
+    color: #9c0fff;
+    font-size: 17px;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    background-color: rgba(12, 12, 12, 0.77);
+    border-radius: 15px;
+}
+
+.about {
+    display: none;
+    margin: auto;
+    height: 40px;
+    width: 120px;
+    border: none;
+    background: transparent;
+    color: #8915db;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.about:hover {
+    background-color: #0d03138e;
+    color: rgb(204, 182, 224);
+}
+
+.aboutParagrap {
+    color: aliceblue;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.825);
+    border-radius: 10px;
+    line-height: 30px;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.mianContanct {
+
+}
+
+.inputs {
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+    background: transparent;
+    background-color: rgba(128, 128, 128, 0.541);
+    height: 40px;
+    color: white;
+    border: none;
+}
+
+textarea {
+    color: white;
+    border: none;
+    width: 100%;
+    margin-top: 15px;
+    background: transparent;
+    background-color: rgba(128, 128, 128, 0.541);
+}
+
+.btnInput {
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 25px;
+    background: transparent;
+    color: #682497;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.btnInput:hover {
+    background-color: #8915db86;
+    color: aliceblue;
+    transition: 1s;
+    margin-top: 10px;
+}
+
+.emailHeader {
+    color: aliceblue;
+    margin-bottom: 125px;
+}
+
+.email {
+    color: aliceblue;
+}
+
+@media screen and (min-width: 768px) {
+
+    .main-header-desctop{
+        display: none;
+    }
+
+    .deliveryMain{
+        background-image: url(./img/delivery.jpg);
+    }
+
+    .services {
+        font-size: 45px;
+        margin-top: -25px;
+        color: #8a19e6;
+    }
+
+    .btnTaxi {
+        font-size: 35px;
+        width: 300px;
+        color: #8a19e6;
+    }
+
+    .about {
+        font-size: 35px;
+        width: 300px;
+        color: #8a19e6;
+        height: 50px;
+    }
+
+    
+    .mainAbout{
+        background-image: url(./img/marketplace.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .aboutParagrap{
+        height: 450px;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-size: cover;
+    }
+
+    .mainAbout{
+        background-image: url(./img/marketplace.jpg);
+        width: 100%;
+        height: 100vh;
+    }
+
+    .burgerBtn{
+        display: none;
+    }
+
+    .mail-ul{
+        display: none;
+    }
+
+    .main-header-desctop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -80px;
+    }
+
+    .aboutParagrap{
+        height: 400px;
+        margin-top: -70px;
+    }
+
+    .deliveryMain{
+        background-image: url(./img/delivery.jpg);
+        width: 100%;
+        height: 100vh;
+    }
+
+    .navigation-desctop{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .links{
+        text-decoration: none;
+        color: aliceblue;
+        list-style: none;
+        margin-left: 25px;
+        margin-top: -30px;
+        cursor: pointer;
+    }
+
+}
